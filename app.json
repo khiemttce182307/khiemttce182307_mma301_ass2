@@ -6,10 +6,13 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.khiemtt.ce182307_ass2",
+      "permissions": ["android.permission.POST_NOTIFICATIONS"],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +22,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#2563EB"
+        }
+      ]
+    ]
   }
 }
