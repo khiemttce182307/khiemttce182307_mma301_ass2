@@ -217,11 +217,11 @@ export const SettingsScreen = () => {
       </View>
 
       {/* THÔNG TIN SINH VIÊN */}
-      <Text style={styles.sectionTitle}>Thông tin đồ án MMA301</Text>
+      <Text style={styles.sectionTitle}>Thông tin MMA301</Text>
       <View style={styles.card}>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Sinh viên thực hiện:</Text>
-          <Text style={styles.infoValue}>Trần Tuấn Khiêm</Text>
+          <Text style={styles.infoValue}>Trần Thiện Khiêm</Text>
         </View>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Mã sinh viên:</Text>
